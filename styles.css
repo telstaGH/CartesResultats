@@ -60,7 +60,19 @@ button:hover {
     }
 
     button {
-        width: 90%;
-        font-size: 14px;
+        margin-top: 20px;          /* Espace supplémentaire au-dessus du bouton */
+        padding: 10px 20px;        /* Espace intérieur autour du texte du bouton (10px vertical, 20px horizontal) */
+        font-size: 16px;           /* Taille du texte à l'intérieur du bouton */
+        position: relative;        /* Positionne le bouton par rapport à sa position normale dans le flux du document */
+        top: 0px;                 /* Décale le bouton de 10px vers le bas depuis sa position normale */
+        left: 0px;                /* Décale le bouton de 20px vers la droite depuis sa position normale */
+    
+        /* Styles supplémentaires pour le bouton */
+        background-color: #007bff; /* Couleur de fond du bouton (ajouté pour la visibilité) */
+        color: #fff;               /* Couleur du texte du bouton (ajouté pour la visibilité) */
+        border: none;             /* Retire les bordures par défaut du bouton */
+        border-radius: 5px;       /* Arrondit les coins du bouton */
+        cursor: pointer;          /* Change le curseur en main lorsque l'on survole le bouton */
+        transition: background-color 0.3s; /* Ajoute une transition fluide lors du survol du bouton */
     }
 }
