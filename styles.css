@@ -52,10 +52,10 @@ button:hover {
 /* Styles pour les petits écrans */
 @media (max-width: 600px) {
     #card {
-        width: 90%;
+        width: 100%;
         height: auto;
-        transform: scale(0.3);  /* Ajuster le facteur de zoom pour les petits écrans */
-        transform-origin: top left;  /* Ajuster l'origine de transformation */
+        transform: scale(0.5);  /* Ajuster le facteur de zoom pour les petits écrans */
+        transform-origin: center;  /* Ajuster l'origine de transformation */
     }
 
     button {
