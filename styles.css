@@ -54,7 +54,7 @@ button:hover {
     #card {
         width: 100%;
         max-width: 1080px;
-        height: 1350;
+        height: 1350px;
         transform: scale(0.5);  /* Ajuster le facteur de zoom pour les petits écrans */
         transform-origin: center;  /* Ajuster l'origine de transformation */
     }
