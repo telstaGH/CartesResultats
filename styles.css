@@ -47,15 +47,13 @@ button {
 button:hover {
     background-color: #0056b3; /* Change la couleur de fond du bouton au survol (ajouté pour la visibilité) */
 }
-
-
 /* Styles pour les petits écrans */
 @media (max-width: 600px) {
     #card {
         width: 100%;
         max-width: 1080px;
         height: 1350px;
-        transform: scale(0.5);  /* Ajuster le facteur de zoom pour les petits écrans */
+        transform: scale(4);  /* Ajuster le facteur de zoom pour les petits écrans */
         transform-origin: center;  /* Ajuster l'origine de transformation */
     }
 
@@ -64,7 +62,7 @@ button:hover {
         padding: 10px 20px;        /* Espace intérieur autour du texte du bouton (10px vertical, 20px horizontal) */
         font-size: 16px;           /* Taille du texte à l'intérieur du bouton */
         position: relative;        /* Positionne le bouton par rapport à sa position normale dans le flux du document */
-        top: 0px;                 /* Décale le bouton de 10px vers le bas depuis sa position normale */
+        top: -850px;                 /* Décale le bouton de 10px vers le bas depuis sa position normale */
         left: 0px;                /* Décale le bouton de 20px vers la droite depuis sa position normale */
     
         /* Styles supplémentaires pour le bouton */
